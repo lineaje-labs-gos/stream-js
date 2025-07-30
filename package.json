@@ -11,7 +11,13 @@
   "homepage": "https://getstream.io/docs/?language=js",
   "email": "support@getstream.io",
   "license": "BSD-3-Clause",
-  "version": "7.4.1",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
+  "version": "7.4.1-lineaje-01",
   "scripts": {
     "transpile": "babel src --out-dir lib --extensions '.ts'",
     "types": "tsc --emitDeclarationOnly",
@@ -118,7 +124,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/GetStream/stream-js.git"
+    "url": "https://github.com/lineaje-labs-gos/stream-js"
   },
   "files": [
     "src",
